@@ -30,14 +30,14 @@ const LoanList = () => {
   // Palautetaan JSX joka esittää lainojen listan ja käyttöliittymän niiden muokkaamiseen
   return (
     <div>
-      <h2>Loan List</h2>
+      <h2>Lainalista</h2>
       <ul>
         {state.loans.map((loan) => (
           <li key={loan.id}>
-            {loan.loaner} owes ${loan.debt}{' '}
+            {loan.loaner} on velkaa ${loan.debt}{' '}
             <input
               type="number"
-              placeholder="Reduction amount"
+              placeholder="Lainanvähennys"
               value={reductionAmount}
               onChange={(e) => setReductionAmount(e.target.value)}
             />
