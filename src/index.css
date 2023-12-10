@@ -1,13 +1,19 @@
+/* Resetoidaan sivun marginaalit*/
 body {
   margin: 0;
+  /* Valitaan helppo fontti*/
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    /* Parannuksia Applen laitteille*/
   -webkit-font-smoothing: antialiased;
+  /* Mozilla parannukset*/
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
+    /*fontti koodille */
+
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
