@@ -11,9 +11,9 @@ const LoanAggregations = () => {
 // Palautetaan JSX, joka näyttää yhteenvedon
   return (
     <div>
-      <h2>Loan Aggregations</h2>
-      <p>Total Debt: ${totalDebt}</p>
-      <p>Average Debt: ${averageDebt}</p>
+      <h2>Lainojen yhteissuma ja keskiarvo</h2>
+      <p>Lainaa yhteensä: {totalDebt} €</p>
+      <p>Keskiarvo: {averageDebt} €</p>
     </div>
   );
 };
