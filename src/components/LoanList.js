@@ -34,7 +34,7 @@ const LoanList = () => {
       <ul>
         {state.loans.map((loan) => (
           <li key={loan.id}>
-            {loan.loaner} on velkaa ${loan.debt}{' '}
+            {loan.loaner} on velkaa {loan.debt} €{' '}
             <input
               type="number"
               placeholder="Lainanvähennys"
