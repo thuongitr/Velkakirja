@@ -26,17 +26,17 @@ const LoanForm = () => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Loaner"
+        placeholder="Lainaaja"
         value={loaner}
         onChange={(e) => setLoaner(e.target.value)}
       />
       <input
         type="number"
-        placeholder="Debt"
+        placeholder="Lainasumma"
         value={debt}
         onChange={(e) => setDebt(e.target.value)}
       />
-      <button type="submit">Add Loan</button>
+      <button type="submit">Lisää laina</button>
     </form>
   );
 };
