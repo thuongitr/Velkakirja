@@ -41,8 +41,8 @@ const LoanList = () => {
               value={reductionAmount}
               onChange={(e) => setReductionAmount(e.target.value)}
             />
-            <button onClick={() => handleReduceDebt(loan.id)}>Reduce Debt</button>
-            <button onClick={() => handleDelete(loan.id)}>Delete</button>
+            <button onClick={() => handleReduceDebt(loan.id)}>Vähennä lainaa</button>
+            <button onClick={() => handleDelete(loan.id)}>Poista</button>
           </li>
         ))}
       </ul>
